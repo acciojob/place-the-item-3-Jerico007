@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+.item{
+	background-color:red;
+	width:15%;
+	height:50%;
+	text-align:center;
+}
